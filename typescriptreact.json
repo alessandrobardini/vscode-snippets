@@ -1,0 +1,70 @@
+{
+	"React Typescript Functional Component With Import": {
+    "prefix": ["fci", "import-react-functional-component"],
+    "body": [
+			"import React from 'react'",
+			"",
+			"type ${1:$TM_FILENAME_BASE}Type = {",
+			"\t${2:prop}: ${3:string}",
+			"}",
+			"",
+			"const ${1:$TM_FILENAME_BASE}: React.FC<${1:$TM_FILENAME_BASE}Type> = ({ ${2:prop} }) => {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t$0",
+			"\t\t</div>",
+			"\t)",
+			"}",
+			"",
+			"export default ${1:$TM_FILENAME_BASE}",
+			""
+		],
+    "description": "A React functional component with Typescript types for props. It includes the 'react' import and the default export."
+	},
+	"React Typescript Functional Component": {
+    "prefix": ["fc", "react-functional-component"],
+    "body": [
+			"type ${1:$TM_FILENAME_BASE}Type = {",
+			"\t${2:prop}: ${3:string}",
+			"}",
+			"",
+			"const ${1:$TM_FILENAME_BASE}: React.FC<${1:$TM_FILENAME_BASE}Type> = ({ ${2:prop} }) => {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t$0",
+			"\t\t</div>",
+			"\t)",
+			"}",
+			""
+		],
+    "description": "A React functional component with Typescript types for props."
+	},
+	"React Typescript Jest Enzyme Test With Import": {
+    "prefix": ["rti", "react-test-import"],
+    "body": [
+			"/* eslint-env jest */",
+			"import React from 'react'",
+			"import 'jest-enzyme'",
+			"",
+			"describe('${1:$TM_FILENAME_BASE}', () => {",
+			"\tit('${2:do something}', () => {",
+			"\t\t$0",
+			"\t})",
+			"})",
+			""
+		],
+    "description": "A React jest-enzyme template. It includes the required imports."
+	},
+	"React Typescript Jest Enzyme Test": {
+    "prefix": ["rt", "react-test"],
+    "body": [
+			"describe('${1:$TM_FILENAME_BASE}', () => {",
+			"\tit('${2:do something}', () => {",
+			"\t\t$0",
+			"\t})",
+			"})",
+			""
+		],
+    "description": "A React jest-enzyme template"
+  }
+}
