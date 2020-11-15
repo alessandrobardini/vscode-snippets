@@ -11,7 +11,7 @@ For more detailed information, please visit the [Visual Studio Code documentatio
 ## Snippets
 ### Typescript React Functional Component With Import
 
-#### **`Hello.tsx`**
+Filename: `Hello.tsx`
 ```tsx
 import React from 'react'
 
@@ -31,8 +31,7 @@ export default Hello
 ```
 
 ### Typescript React Functional Component
-
-#### **`Hello.tsx`**
+Filename: `Hello.tsx`
 ```tsx
 type HelloType = {
   prop: string
@@ -49,7 +48,7 @@ const Hello: React.FC<HelloType> = ({ prop }) => {
 
 ### Typescript React Jest Enzyme Test With Import
 
-#### **`Hello.test.tsx`**
+Filename: `Hello.test.tsx`
 ```tsx
 /* eslint-env jest */
 import React from 'react'
@@ -64,7 +63,7 @@ describe('Hello', () => {
 
 ### Typescript React Jest Enzyme Test
 
-#### **`Hello.test.tsx`**
+Filename: `Hello.test.tsx`
 ```tsx
 describe('Hello', () => {
   it('something', () => {
